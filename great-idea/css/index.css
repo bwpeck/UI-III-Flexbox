@@ -77,6 +77,8 @@ h1, h2, h3, h4, h5 {
 /* header */
 header {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly
   
 }
 header nav {
@@ -105,9 +107,6 @@ header nav a:last-child {
 header .logo {
   display:flex;
   flex-wrap: wrap;
-   width: 25%;
-   height: 20px;
-  margin-top: 25px;
 }
 
 /* cta */
@@ -116,7 +115,6 @@ header .logo {
   justify-content: flex-start;
   flex-wrap: wrap;
   width: 100%;
-  border: solid red;
   height: 600px;
 }
 
@@ -145,8 +143,8 @@ header .logo {
 }
 
 .cta img {
-  display: flexbox;
-  margin-top: 69px;
+  display: flex;
+  align-self: center;
 }
 
 .main-content {

@@ -74,6 +74,7 @@ h1, h2, h3, h4, h5 {
 /* header */
 header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   
 }
@@ -103,7 +104,6 @@ header nav a:last-child {
 header .logo {
   display:flex;
   flex-wrap: wrap;
-  margin-top: 25px;
 
 }
 .main-content {
