@@ -1,6 +1,3 @@
-
-
-
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -105,50 +102,8 @@ header nav a:last-child {
 header .logo {
   display:flex;
   flex-wrap: wrap;
-   width: 25%;
-   height: 20px;
   margin-top: 25px;
 }
-
-/* cta */
-.cta {
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  width: 100%;
-  border: solid red;
-  height: 600px;
-}
-
-.cta-textdiv {
-  display: flex;
-  font-size: 77px;
-  margin-top: 120px;
-  text-align: left;
-  padding: 0px 75px;
-}
-
-.cta .cta-text button {
-  background: white;
-  vertical-align: top;
-  height: 40px;
-  margin-top: 6px;
-  padding: 8px 44px;
-  font-size: 17px;
-  border: 1px solid black;
-  cursor: pointer;
-}
-
-.cta .cta-text button:hover {
-  background: black;
-  color: white;
-}
-
-.cta img {
-  display: flexbox;
-  margin-top: 69px;
-}
-
 .main-content {
   display: flex;
   flex-direction: column;
@@ -156,53 +111,48 @@ header .logo {
   margin-top: 76px;
   padding-top: 39px;
 }
-
 .main-content .top-content {
-  display:flex;
+  display: flex;
+  flex-wrap: wrap;
   padding: 0 10px;
 }
 
 .main-content .top-content .text-content {
  width: 47%; 
   margin-right: 34px;
+  border: 2px solid black;
 
 }
-
 .main-content .top-content .text-content:last-child {
   margin-right: 0;
 }
-
-.main-content .middle-img {
-  margin-top: 45px;
+.main-content .mid-content {
+  display:flex;
+  flex-direction: row;
+  padding: 0 10px;
 }
 
+.main-content .mid-content .text-content {
+ width: 47%; 
+  margin-right: 34px;
+  border: 2px solid black;
+
+}
+
+.main-content .mid-content .text-content:last-child {
+  margin-right: 0;
+}
 .main-content .bottom-content {
   display: flex;
-  margin-top: 37px;
+  flex-wrap: wrap;
   padding: 0 10px;
 }
 
 .main-content .bottom-content .text-content {
-  width: 275px;
-  margin-right: 12px;
-}
+ width: 47%; 
+  margin-right: 34px;
+  border: 2px solid black;
 
+}
 .main-content .bottom-content .text-content:last-child {
   margin-right: 0;
-}
-
-.contact {
-  margin-top: 57px;
-  border-top: 1px solid black;
-  padding: 39px 10px 0;
-}
-
-.contact p {
-  margin: 20px 0;
-}
-
-footer {
-  margin: 32px 0;
-  text-align: center;
-  font-size: 14px;
-}
