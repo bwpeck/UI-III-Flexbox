@@ -103,6 +103,7 @@ header .logo {
   display:flex;
   flex-wrap: wrap;
   margin-top: 25px;
+
 }
 .main-content {
   display: flex;
@@ -110,6 +111,20 @@ header .logo {
   border-top: 1px solid black;
   margin-top: 76px;
   padding-top: 39px;
+}
+button {
+  background: white;
+  vertical-align: top;
+  height: 40px;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+button:hover {
+  background: black;
+  color: white;
 }
 .main-content .top-content {
   display: flex;
@@ -155,4 +170,11 @@ header .logo {
 
 }
 .main-content .bottom-content .text-content:last-child {
-  margin-right: 0;
+  margin-right: 0; 
+}
+footer {
+  display: flex;
+}
+footer .text-content {
+  width: 33%;
+}
