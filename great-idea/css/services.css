@@ -74,6 +74,7 @@ h1, h2, h3, h4, h5 {
 /* header */
 header {
   display: flex;
+  justify-content: space-evenly;
   
 }
 header nav {
@@ -109,15 +110,18 @@ header .logo {
   display: flex;
   flex-direction: column;
   border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-bottom: 76px;
   margin-top: 76px;
   padding-top: 39px;
+  padding-bottom: 39px;
 }
 button {
   background: white;
   vertical-align: top;
   height: 40px;
   margin-top: 6px;
-  padding: 8px 44px;
+  padding: 8px 8px;
   font-size: 17px;
   border: 1px solid black;
   cursor: pointer;
@@ -136,6 +140,7 @@ button:hover {
  width: 47%; 
   margin-right: 34px;
   border: 2px solid black;
+  background-color: lightgray;
 
 }
 .main-content .top-content .text-content:last-child {
@@ -151,6 +156,7 @@ button:hover {
  width: 47%; 
   margin-right: 34px;
   border: 2px solid black;
+  background-color: lightgray;
 
 }
 
@@ -167,6 +173,7 @@ button:hover {
  width: 47%; 
   margin-right: 34px;
   border: 2px solid black;
+  background-color: lightgray;
 
 }
 .main-content .bottom-content .text-content:last-child {
@@ -174,7 +181,8 @@ button:hover {
 }
 footer {
   display: flex;
+  flex-wrap: wrap
 }
 footer .text-content {
-  width: 33%;
+  width: 40%;
 }
